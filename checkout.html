@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Amazon Clone</title>
+</head>
+<body bgcolor="#FFFFFF">
+    <!-- Header with navigation (simplified for checkout) -->
+    <table width="100%" cellspacing="0" cellpadding="10" bgcolor="#232F3E">
+        <tr>
+            <td width="150">
+                <a href="index.html" style="text-decoration:none;">
+                    <font color="white" size="5"><b>amazon</b></font>
+                </a>
+            </td>
+            <td align="center">
+                <font color="white" size="4">Checkout</font>
+            </td>
+            <td width="150" align="right">
+                <font color="white"><a href="help.html" style="color:white; text-decoration:none;">Help</a></font>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Checkout Process Navigation -->
+    <table width="100%" cellspacing="0" cellpadding="10" bgcolor="#EAEDED">
+        <tr>
+            <td align="center">
+                <font size="3">
+                    <b>1. Shipping address</b> &gt; 
+                    <span style="color:#555;">2. Payment method</span> &gt; 
+                    <span style="color:#555;">3. Review items</span> &gt; 
+                    <span style="color:#555;">4. Place order</span>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Main Content -->
+    <table width="100%" cellspacing="0" cellpadding="20">
+        <tr>
+            <td>
+                <font size="5"><b>Shipping Address</b></font>
+                
+                <hr>
+                
+                <!-- Address Selection -->
+                <table width="100%" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td width="50%" valign="top">
+                            <input type="radio" name="address" checked>
+                            <font size="3"><b>John Doe</b></font><br>
+                            <font size="3">123 Main Street</font><br>
+                            <font size="3">Apt 4B</font><br>
+                            <font size="3">New York, NY 10001</font><br>
+                            <font size="3">United States</font><br>
+                            <font size="3">Phone: (212) 555-1234</font><br><br>
+                            <a href="#" style="text-decoration:none; color:#0066c0;">Edit</a> | 
+                            <a href="#" style="text-decoration:none; color:#0066c0;">Delete</a>
+                        </td>
+                        <td width="50%" valign="top" bgcolor="#F8F8F8">
+                            <font size="3"><b>Add a new address</b></font>
+                            <form action="checkout.html">
+                                <table width="100%" cellspacing="0" cellpadding="5">
+                                    <tr>
+                                        <td width="50%">
+                                            <font size="3">Country/Region:</font><br>
+                                            <select style="width:100%; padding:5px;">
+                                                <option selected>United States</option>
+                                                <option>Canada</option>
+                                                <option>United Kingdom</option>
+                                                <option>Australia</option>
+                                            </select>
+                                        </td>
+                                        <td width="50%">
+                                            <font size="3">Full Name:</font><br>
+                                            <input type="text" style="width:100%; padding:5px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <font size="3">Street Address:</font><br>
+                                            <input type="text" placeholder="Street and number" style="width:100%; padding:5px;"><br>
+                                            <input type="text" placeholder="Apartment, suite, unit, etc. (optional)" style="width:100%; padding:5px; margin-top:5px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="33%">
+                                            <font size="3">City:</font><br>
+                                            <input type="text" style="width:100%; padding:5px;">
+                                        </td>
+                                        <td width="33%">
+                                            <font size="3">State:</font><br>
+                                            <select style="width:100%; padding:5px;">
+                                                <option>Select state</option>
+                                                <option>NY</option>
+                                                <option>CA</option>
+                                                <option>TX</option>
+                                                <option>FL</option>
+                                            </select>
+                                        </td>
+                                        <td width="33%">
+                                            <font size="3">ZIP Code:</font><br>
+                                            <input type="text" style="width:100%; padding:5px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <font size="3">Phone Number:</font><br>
+                                            <input type="text" style="width:100%; padding:5px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <input type="checkbox"> <font size="3">Make this my default address</font>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <input type="submit" value="Add address" style="padding:5px; width:150px;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+                
+                <hr>
+                
+                <!-- Delivery Options -->
+                <font size="4"><b>Delivery Options</b></font>
+                <table width="100%" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td>
+                            <input type="radio" name="delivery" checked> 
+                            <font size="3"><b>FREE Prime Delivery</b></font><br>
+                            <font size="3">Get it by <b>Tomorrow, June 15</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="delivery"> 
+                            <font size="3"><b>FREE Standard Shipping</b></font><br>
+                            <font size="3">Get it by <b>Monday, June 20</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="delivery"> 
+                            <font size="3"><b>$9.99 - One-Day Shipping</b></font><br>
+                            <font size="3">Get it <b>Tomorrow, June 15</b> if you order within <b>2 hrs 30 mins</b></font>
+                        </td>
+                    </tr>
+                </table>
+                
+                <hr>
+                
+                <!-- Continue Button -->
+                <table width="100%" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td align="right">
+                            <form action="checkout.html">
+                                <input type="submit" value="Continue to payment method" style="background-color:#FFD814; padding:10px; width:250px; border:none;">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Order Summary -->
+    <table width="100%" cellspacing="0" cellpadding="20" bgcolor="#EAEDED">
+        <tr>
+            <td>
+                <table width="100%" cellspacing="0" cellpadding="10" bgcolor="#FFFFFF">
+                    <tr>
+                        <td>
+                            <font size="4"><b>Order Summary</b></font>
+                            <table width="100%" cellspacing="0" cellpadding="5">
+                                <tr>
+                                    <td>Items (1):</td>
+                                    <td align="right">$79.99</td>
+                                </tr>
+                                <tr>
+                                    <td>Shipping & handling:</td>
+                                    <td align="right">$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Total before tax:</td>
+                                    <td align="right">$79.99</td>
+                                </tr>
+                                <tr>
+                                    <td>Estimated tax to be collected:</td>
+                                    <td align="right">$6.40</td>
+                                </tr>
+                                <tr>
+                                    <td><font size="4"><b>Order total:</b></font></td>
+                                    <td align="right"><font size="4" color="red"><b>$86.39</b></font></td>
+                                </tr>
+                            </table>
+                            <hr>
+                            <font size="3"><a href="shopping_cart.html" style="text-decoration:none; color:#0066c0;">Edit cart</a></font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <table width="100%" cellspacing="0" cellpadding="20" bgcolor="#232F3E">
+        <tr>
+            <td align="center">
+                <font color="white" size="2">
+                    &copy; 1996-2023, Amazon.com, Inc. or its affiliates | 
+                    <a href="#" style="color:white; text-decoration:none;">Privacy Notice</a> | 
+                    <a href="#" style="color:white; text-decoration:none;">Conditions of Use</a>
+                </font>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics - Amazon Clone</title>
+</head>
+<body bgcolor="#FFFFFF">
+    <!-- Header with navigation -->
+    <table width="100%" cellspacing="0" cellpadding="10" bgcolor="#232F3E">
+        <tr>
+            <td width="150">
+                <a href="index.html" style="text-decoration:none;">
+                    <font color="white" size="5"><b>amazon</b></font>
+                </a>
+            </td>
+            <td>
+                <table width="100%" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td width="60%">
+                            <form action="index.html" method="get">
+                                <table width="100%" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="80%">
+                                            <input type="text" name="search" placeholder="Search Electronics" style="width:100%; padding:5px;">
+                                        </td>
+                                        <td width="20%">
+                                            <input type="submit" value="Search">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                        <td align="right">
+                            <font color="white"><a href="account.html" style="color:white; text-decoration:none;">Hello, Sign in</a></font>
+                        </td>
+                        <td align="center">
+                            <font color="white"><a href="orders.html" style="color:white; text-decoration:none;">Returns & Orders</a></font>
+                        </td>
+                        <td align="center">
+                            <font color="white"><a href="shopping_cart.html" style="color:white; text-decoration:none;">Cart (0)</a></font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Category Navigation -->
+    <table width="100%" cellspacing="0" cellpadding="5" bgcolor="#3A4553">
+        <tr>
+            <td>
+                <font color="white">
+                    <a href="index.html" style="color:white; text-decoration:none; margin-right:10px;">All</a>
+                    <a href="category_electronics.html" style="color:white; text-decoration:none; margin-right:10px;">Electronics</a>
+                    <a href="category_books.html" style="color:white; text-decoration:none; margin-right:10px;">Books</a>
+                    <a href="category_clothing.html" style="color:white; text-decoration:none; margin-right:10px;">Clothing</a>
+                    <a href="#" style="color:white; text-decoration:none; margin-right:10px;">Home & Kitchen</a>
+                    <a href="#" style="color:white; text-decoration:none; margin-right:10px;">Toys & Games</a>
+                    <a href="#" style="color:white; text-decoration:none; margin-right:10px;">Beauty & Personal Care</a>
+                    <a href="#" style="color:white; text-decoration:none;">Prime</a>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Navigation Breadcrumb -->
+    <table width="100%" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>
+                <font size="2">
+                    <a href="index.html" style="text-decoration:none; color:#555;">Home</a> &gt; Electronics
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Category Page -->
+    <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+            <!-- Left Sidebar with Filters -->
+            <td width="20%" valign="top" bgcolor="#F8F8F8">
+                <table width="100%" cellspacing="0" cellpadding="20">
+                    <tr>
+                        <td>
+                            <font size="4"><b>Department</b></font><br>
+                            <font size="3">
+                                <ul style="list-style-type:none; padding-left:0;">
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Cell Phones & Accessories</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Computers & Tablets</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">TV & Video</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Audio & Home Theater</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Camera & Photo</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Wearable Technology</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Car Electronics</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Portable Audio</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Office Electronics</a></li>
+                                </ul>
+                            </font>
+                            
+                            <hr>
+                            
+                            <font size="4"><b>Customer Reviews</b></font><br>
+                            <font size="3">
+                                <ul style="list-style-type:none; padding-left:0;">
+                                    <li>★★★★☆ & Up</li>
+                                    <li>★★★☆☆ & Up</li>
+                                    <li>★★☆☆☆ & Up</li>
+                                    <li>★☆☆☆☆ & Up</li>
+                                </ul>
+                            </font>
+                            
+                            <hr>
+                            
+                            <font size="4"><b>Price</b></font><br>
+                            <font size="3">
+                                <ul style="list-style-type:none; padding-left:0;">
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Under $25</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">$25 to $50</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">$50 to $100</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">$100 to $200</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">$200 & Above</a></li>
+                                </ul>
+                            </font>
+                            
+                            <hr>
+                            
+                            <font size="4"><b>Deals</b></font><br>
+                            <font size="3">
+                                <ul style="list-style-type:none; padding-left:0;">
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Today's Deals</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Prime Day Deals</a></li>
+                                    <li><a href="#" style="text-decoration:none; color:#0066c0;">Outlet</a></li>
+                                </ul>
+                            </font>
+                            
+                            <hr>
+                            
+                            <font size="4"><b>Shipping Options</b></font><br>
+                            <font size="3">
+                                <ul style="list-style-type:none; padding-left:0;">
+                                    <li>Free Shipping</li>
+                                    <li>Prime Eligible</li>
+                                </ul>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            
+            <!-- Main Content with Product Listings -->
+            <td width="80%" valign="top">
+                <table width="100%" cellspacing="0" cellpadding="20">
+                    <tr>
+                        <td>
+                            <font size="6"><b>Electronics</b></font>
+                            
+                            <!-- Featured Categories -->
+                            <table width="100%" cellspacing="10" cellpadding="10">
+                                <tr>
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="#" style="text-decoration:none; color:black;">
+                                            <font size="4">Cell Phones</font><br>
+                                            <font size="2">Explore smartphones & accessories</font>
+                                        </a>
+                                    </td>
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="#" style="text-decoration:none; color:black;">
+                                            <font size="4">Computers & Tablets</font><br>
+                                            <font size="2">Laptops, desktops & more</font>
+                                        </a>
+                                    </td>
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="#" style="text-decoration:none; color:black;">
+                                            <font size="4">Headphones</font><br>
+                                            <font size="2">Over-ear, earbuds & more</font>
+                                        </a>
+                                    </td>
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="#" style="text-decoration:none; color:black;">
+                                            <font size="4">Cameras</font><br>
+                                            <font size="2">DSLR, mirrorless & more</font>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <hr>
+                            
+                            <!-- Products Grid -->
+                            <table width="100%" cellspacing="0" cellpadding="10">
+                                <tr>
+                                    <td>
+                                        <font size="4"><b>Popular in Electronics</b></font>
+                                        <font size="3" style="float:right;">
+                                            Sort by: 
+                                            <select>
+                                                <option selected>Featured</option>
+                                                <option>Price: Low to High</option>
+                                                <option>Price: High to Low</option>
+                                                <option>Customer Reviews</option>
+                                                <option>Newest Arrivals</option>
+                                            </select>
+                                        </font>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- Row 1 -->
+                            <table width="100%" cellspacing="10" cellpadding="10">
+                                <tr>
+                                    <!-- Product 1 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Wireless Headphones</font><br>
+                                            <font color="red"><b>$79.99</b></font><br>
+                                            <font color="green">Save 20%</font><br>
+                                            <font size="2">⭐⭐⭐⭐☆ (1,245)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 2 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Smart Watch</font><br>
+                                            <font color="red"><b>$129.99</b></font><br>
+                                            <font color="green">Save 15%</font><br>
+                                            <font size="2">⭐⭐⭐⭐⭐ (956)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 3 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Bluetooth Speaker</font><br>
+                                            <font color="red"><b>$49.99</b></font><br>
+                                            <font color="green">Save 30%</font><br>
+                                            <font size="2">⭐⭐⭐⭐☆ (2,187)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 4 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">4K LED TV 50"</font><br>
+                                            <font color="red"><b>$399.99</b></font><br>
+                                            <font color="green">Save 25%</font><br>
+                                            <font size="2">⭐⭐⭐⭐☆ (3,450)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- Row 2 -->
+                            <table width="100%" cellspacing="10" cellpadding="10">
+                                <tr>
+                                    <!-- Product 5 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Laptop Computer</font><br>
+                                            <font color="red"><b>$899.99</b></font><br>
+                                            <font size="2">⭐⭐⭐⭐⭐ (2,789)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 6 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Tablet 10.1"</font><br>
+                                            <font color="red"><b>$199.99</b></font><br>
+                                            <font size="2">⭐⭐⭐⭐☆ (1,456)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 7 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Wireless Earbuds</font><br>
+                                            <font color="red"><b>$59.99</b></font><br>
+                                            <font size="2">⭐⭐⭐⭐☆ (4,321)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 8 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Digital Camera</font><br>
+                                            <font color="red"><b>$449.99</b></font><br>
+                                            <font size="2">⭐⭐⭐⭐⭐ (987)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- Row 3 -->
+                            <table width="100%" cellspacing="10" cellpadding="10">
+                                <tr>
+                                    <!-- Product 9 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Smart Home Hub</font><br>
+                                            <font color="red"><b>$99.99</b></font><br>
+                                            <font size="2">⭐⭐⭐⭐☆ (1,876)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 10 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Gaming Console</font><br>
+                                            <font color="red"><b>$499.99</b></font><br>
+                                            <font size="2">⭐⭐⭐⭐⭐ (5,432)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 11 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">Drone with Camera</font><br>
+                                            <font color="red"><b>$299.99</b></font><br>
+                                            <font size="2">⭐⭐⭐⭐☆ (789)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                    <!-- Product 12 -->
+                                    <td width="25%" align="center" bgcolor="#F8F8F8">
+                                        <a href="product_detail.html" style="text-decoration:none; color:black;">
+                                            <font size="4">External Hard Drive</font><br>
+                                            <font color="red"><b>$79.99</b></font><br>
+                                            <font size="2">⭐⭐⭐⭐⭐ (2,345)</font><br>
+                                            <font size="2">Free delivery</font>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- Pagination -->
+                            <table width="100%" cellspacing="0" cellpadding="20">
+                                <tr>
+                                    <td align="center">
+                                        <font size="3">
+                                            <a href="#" style="text-decoration:none; color:#0066c0; margin-right:10px;">Previous</a>
+                                            <a href="#" style="text-decoration:none; color:#0066c0; margin-right:10px;">1</a>
+                                            <a href="#" style="text-decoration:none; color:#0066c0; margin-right:10px;">2</a>
+                                            <a href="#" style="text-decoration:none; color:#0066c0; margin-right:10px;">3</a>
+                                            <a href="#" style="text-decoration:none; color:#0066c0; margin-right:10px;">...</a>
+                                            <a href="#" style="text-decoration:none; color:#0066c0;">Next</a>
+                                        </font>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <table width="100%" cellspacing="0" cellpadding="20" bgcolor="#232F3E">
+        <tr>
+            <td align="center">
+                <font color="white">
+                    <a href="#" style="color:white; text-decoration:none; margin-right:20px;">Back to top</a>
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td width="25%" valign="top">
+                            <font color="white" size="4"><b>Get to Know Us</b></font><br>
+                            <font color="white" size="2">
+                                <a href="#" style="color:white; text-decoration:none;">Careers</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">About Amazon</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Investor Relations</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Amazon Devices</a><br>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font color="white" size="4"><b>Make Money with Us</b></font><br>
+                            <font color="white" size="2">
+                                <a href="#" style="color:white; text-decoration:none;">Sell products on Amazon</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Sell on Amazon Business</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Sell apps on Amazon</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Become an Affiliate</a><br>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font color="white" size="4"><b>Amazon Payment Products</b></font><br>
+                            <font color="white" size="2">
+                                <a href="#" style="color:white; text-decoration:none;">Amazon Business Card</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Shop with Points</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Reload Your Balance</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Amazon Currency Converter</a><br>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font color="white" size="4"><b>Let Us Help You</b></font><br>
+                            <font color="white" size="2">
+                                <a href="#" style="color:white; text-decoration:none;">Amazon and COVID-19</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Your Account</a><br>
+                                <a href="#" style="color:white; text-decoration:none;">Your Orders</a><br>
+                                <a href="help.html" style="color:white; text-decoration:none;">Help</a><br>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <font color="white" size="2">
+                    &copy; 1996-2023, Amazon.com, Inc. or its affiliates
+                </font>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
